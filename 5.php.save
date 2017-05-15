@@ -1,0 +1,30 @@
+<?php
+$line = readline("Min range : ");
+print_r(readline_info());
+exit;
+
+//the range to look to
+$minRange = 1; $maxRange = 20;
+if($minRange > $maxRange) ho "\nRanges are not proper.\n";exit;}
+$counter = $maxRange;
+while($counter > $minRange){
+	
+	$success = true;
+	for($i = $minRange; $i <= $maxRange; $i++){
+		if($counter % $i != 0){
+			$success = false;
+			break;
+		}
+	}
+	if($success){
+		//we nullify the check condition for the while
+		$counter = $minRange;
+		echo "\n Max positive number is : $counter \n";
+	}else{ $counter++; }
+}
+if($counter < $maxRange){
+	echo "\n Loop exhausted without any result . \n";
+}
+
+
+
