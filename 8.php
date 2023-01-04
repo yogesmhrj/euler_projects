@@ -14,6 +14,6 @@ for($i = 0; $i < (strlen($data)-$adjacent); $i++){
 	}
 }
 
-echo "\n The $adjacent digit in the ".strlen($data)."-digit number that have the greatedt product is $digits and the value is $product. \n";
+echo "\n The $adjacent digit in the ".strlen($data)."-digit number that have the greatest product is $digits and the value is $product. \n";
 
 
