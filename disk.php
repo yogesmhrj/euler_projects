@@ -2,7 +2,7 @@
 /**
  * @yogesh 2024-12-20
  * 
- * Moving discks from pole 1 to pole 3
+ * Moving disks from pole 1 to pole 3
  * Rules: 
  * 1. can move only one disk at a time
  * 2. larger disk cannot be on top of smaller disk
